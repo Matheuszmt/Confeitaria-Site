@@ -45,6 +45,7 @@
             <div class="floating-cake">🎂</div>
             <div class="floating-cupcake">🧁</div>
             <div class="floating-donut">🍩</div>
+            
         </div>
     </section>
 
@@ -84,42 +85,42 @@
             <h2 class="section-title">Nossa Galeria</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <div class="gallery-image">🎂</div>
+                    <div class="gallery-image"><img src="./assets/img/logo.png" width="100%" alt=""></div>
                     <div class="gallery-overlay">
                         <h3>Bolo de Aniversário</h3>
                         <p>Personalizado</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-image">🍰</div>
+                    <div class="gallery-image"><img src="./assets/img/logo.png" width="100%" alt=""></div>
                     <div class="gallery-overlay">
                         <h3>Torta de Frutas</h3>
                         <p>Sabor refrescante</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-image">🧁</div>
+                    <div class="gallery-image"><img src="./assets/img/logo.png" width="100%" alt=""></div>
                     <div class="gallery-overlay">
                         <h3>Bolo de Pote</h3>
                         <p>Diversos sabores</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-image">🍩</div>
+                    <div class="gallery-image"><img src="./assets/img/logo.png" width="100%" alt=""></div>
                     <div class="gallery-overlay">
                         <h3>Donuts Artesanais</h3>
                         <p>Coberturas especiais</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-image">🎪</div>
+                    <div class="gallery-image"><img src="./assets/img/logo.png" width="100%" alt=""></div>
                     <div class="gallery-overlay">
                         <h3>Festa Infantil</h3>
                         <p>Temas divertidos</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-image">💒</div>
+                    <div class="gallery-image"><img src="./assets/img/logo.png" width="100%" alt=""></div>
                     <div class="gallery-overlay">
                         <h3>Bolo de Casamento</h3>
                         <p>Elegância e sofisticação</p>
@@ -140,17 +141,29 @@
                     <h3>Bolo Tradicional</h3>
                     <p>Sabores clássicos que conquistam gerações</p>
                     <div class="size-options">
-                        <div class="size-option" data-size="25" data-price="45">
-                            <span class="size-label">25 pessoas</span>
-                            <span class="size-price">R$ 45,00</span>
+                        <div class="size-option" data-size="10" data-price="55">
+                            <span class="size-label">Tamanho PP</span>
+                            <span class="size-price">R$ 55,00</span>
                         </div>
-                        <div class="size-option" data-size="50" data-price="75">
-                            <span class="size-label">50 pessoas</span>
-                            <span class="size-price">R$ 75,00</span>
+                        <div class="size-option" data-size="15" data-price="90">
+                            <span class="size-label">Tamanho P</span>
+                            <span class="size-price">R$ 90,00</span>
                         </div>
-                        <div class="size-option" data-size="100" data-price="120">
-                            <span class="size-label">100 pessoas</span>
-                            <span class="size-price">R$ 120,00</span>
+                        <div class="size-option" data-size="20" data-price="135">
+                            <span class="size-label">Tamanho M</span>
+                            <span class="size-price">R$ 135,00</span>
+                        </div>
+                        <div class="size-option" data-size="25" data-price="170">
+                            <span class="size-label">Tamanho G</span>
+                            <span class="size-price">R$ 170,00</span>
+                        </div>
+                        <div class="size-option" data-size="25" data-price="170">
+                            <span class="size-label">Tamanho GG</span>
+                            <span class="size-price">R$ 260,00</span>
+                        </div>
+                        <div class="size-option" data-size="25" data-price="170">
+                            <span class="size-label">Tamanho EG</span>
+                            <span class="size-price">R$ 320,00</span>
                         </div>
                     </div>
                     <button class="order-btn" onclick="prepareWhatsAppMessage('Bolo Tradicional')">
@@ -159,76 +172,81 @@
                     </button>
                 </div>
 
-                <!-- Bolo Personalizado -->
-                <div class="product-card">
-                    <div class="product-icon">🎨</div>
-                    <h3>Bolo Personalizado</h3>
-                    <p>Criações únicas para ocasiões especiais</p>
-                    <div class="size-options">
-                        <div class="size-option" data-size="25" data-price="80">
-                            <span class="size-label">25 pessoas</span>
-                            <span class="size-price">R$ 80,00</span>
-                        </div>
-                        <div class="size-option" data-size="50" data-price="140">
-                            <span class="size-label">50 pessoas</span>
-                            <span class="size-price">R$ 140,00</span>
-                        </div>
-                        <div class="size-option" data-size="100" data-price="250">
-                            <span class="size-label">100 pessoas</span>
-                            <span class="size-price">R$ 250,00</span>
-                        </div>
-                    </div>
-                    <button class="order-btn" onclick="prepareWhatsAppMessage('Bolo Personalizado')">
-                        <i class="fab fa-whatsapp"></i>
-                        Fazer Pedido
-                    </button>
-                </div>
-
-                <!-- Tortas -->
+                <!-- Especiais -->
                 <div class="product-card">
                     <div class="product-icon">🍰</div>
-                    <h3>Tortas Especiais</h3>
-                    <p>Doces e salgadas, sempre fresquinhas</p>
+                    <h3>Bolos Especiais</h3>
+                    <p>Sabores personalizados, e muita inovação!</p>
                     <div class="size-options">
-                        <div class="size-option" data-size="15" data-price="35">
-                            <span class="size-label">15 pessoas</span>
-                            <span class="size-price">R$ 35,00</span>
+                        <div class="size-option" data-size="10" data-price="65">
+                            <span class="size-label">Tamanho PP</span>
+                            <span class="size-price">R$ 65,00</span>
                         </div>
-                        <div class="size-option" data-size="30" data-price="60">
-                            <span class="size-label">30 pessoas</span>
-                            <span class="size-price">R$ 60,00</span>
+                        <div class="size-option" data-size="15" data-price="100">
+                            <span class="size-label">Tamanho P</span>
+                            <span class="size-price">R$ 100,00</span>
                         </div>
-                        <div class="size-option" data-size="50" data-price="95">
-                            <span class="size-label">50 pessoas</span>
-                            <span class="size-price">R$ 95,00</span>
+                        <div class="size-option" data-size="20" data-price="160">
+                            <span class="size-label">Tamanho M</span>
+                            <span class="size-price">R$ 160,00</span>
+                        </div>
+                        <div class="size-option" data-size="25" data-price="200">
+                            <span class="size-label">Tamanho G</span>
+                            <span class="size-price">R$ 200,00</span>
+                        </div>
+                        <div class="size-option" data-size="25" data-price="300">
+                            <span class="size-label">Tamanho GG</span>
+                            <span class="size-price">R$ 300,00</span>
+                        </div>
+                        <div class="size-option" data-size="25" data-price="360">
+                            <span class="size-label">Tamanho EG</span>
+                            <span class="size-price">R$ 360,00</span>
                         </div>
                     </div>
-                    <button class="order-btn" onclick="prepareWhatsAppMessage('Tortas Especiais')">
+                    <button class="order-btn" onclick="prepareWhatsAppMessage('Bolos Especiais')">
                         <i class="fab fa-whatsapp"></i>
                         Fazer Pedido
                     </button>
                 </div>
 
-                <!-- Cupcakes -->
+                <!-- Docinhos -->
                 <div class="product-card">
                     <div class="product-icon">🧁</div>
-                    <h3>Bolo de Pote</h3>
+                    <h3>Cento de Doces</h3>
                     <p>Pequenos prazeres em diversos sabores</p>
                     <div class="size-options">
-                        <div class="size-option" data-size="12" data-price="24">
-                            <span class="size-label">12 unidades</span>
-                            <span class="size-price">R$ 24,00</span>
+                        <div class="size-option" data-size="100" data-price="100">
+                            <span class="size-label">Doces Tradicionais</span>
+                            <span class="size-price">R$ 100,00</span>
                         </div>
-                        <div class="size-option" data-size="24" data-price="45">
-                            <span class="size-label">24 unidades</span>
-                            <span class="size-price">R$ 45,00</span>
+                        <div class="size-option" data-size="100" data-price="130">
+                            <span class="size-label">Doces Especiais</span>
+                            <span class="size-price">R$ 130,00</span>
                         </div>
-                        <div class="size-option" data-size="50" data-price="85">
-                            <span class="size-label">50 unidades</span>
-                            <span class="size-price">R$ 85,00</span>
+                        <div class="size-option" data-size="100" data-price="150">
+                            <span class="size-label">Trufas</span>
+                            <span class="size-price">R$ 150,00</span>
                         </div>
                     </div>
-                    <button class="order-btn" onclick="prepareWhatsAppMessage('Cupcakes')">
+                    <button class="order-btn" onclick="prepareWhatsAppMessage('Docinhos')">
+                        <i class="fab fa-whatsapp"></i>
+                        Fazer Pedido
+                    </button>
+                </div>
+
+                                <!-- Bolo Personalizado -->
+                <div class="product-card">
+                    <div class="product-icon">🎉</div>
+                    <h3>Festa na Caixa</h3>
+                    <p>Criações únicas para ocasiões especiais</p>
+                    <p><b>BentoCake, Salgadinhos, Barra de chocolate artesanal recheada, Taças em acrílico refrigerante ou sucos!</b></p>
+                    <div class="size-options">
+                        <div class="size-option" data-size="25" data-price="80">
+                            <span class="size-label">1 Caixa</span>
+                            <span class="size-price">R$ 110,00</span>
+                        </div>      
+                    </div>
+                    <button class="order-btn" onclick="prepareWhatsAppMessage('Festa na Caixa')">
                         <i class="fab fa-whatsapp"></i>
                         Fazer Pedido
                     </button>
@@ -306,7 +324,7 @@
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="https://www.instagram.com/afatiadocess/" target="_blank".><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/5531995247888?text=Olá, vim através do seu site!" target="_blank".><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -405,7 +423,7 @@
                 <div class="order-details">
                     <h4>Detalhes do Pedido:</h4>
                     <p><strong>Produto:</strong> ${selectedProduct.name}</p>
-                    <p><strong>Tamanho:</strong> ${selectedProduct.size} ${selectedProduct.name === 'Cupcakes' ? 'unidades' : 'pessoas'}</p>
+                    <p><strong>Tamanho/Quantidade:</strong> ${selectedProduct.size} ${selectedProduct.name === 'Cupcakes' ? 'unidades' : 'pessoas'}</p>
                     <p><strong>Valor:</strong> R$ ${selectedProduct.price},00</p>
                 </div>
             `;
@@ -421,7 +439,7 @@
             const message = `Olá! Gostaria de fazer um orçamento:
 
 🎂 *Produto:* ${selectedProduct.name}
-📏 *Tamanho:* ${selectedProduct.size} ${selectedProduct.name === 'Cupcakes' ? 'unidades' : 'pessoas'}
+📏 *Tamanho/Quantidade:* ${selectedProduct.size} ${selectedProduct.name === 'Cupcakes' ? 'unidades' : 'pessoas'}
 💰 *Valor:* R$ ${selectedProduct.price},00
 
 Poderia me dar mais informações sobre disponibilidade e prazo de entrega?`;
